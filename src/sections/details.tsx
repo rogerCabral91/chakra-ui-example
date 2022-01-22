@@ -26,16 +26,16 @@ const Details = () => {
         <GridItem colSpan={colSpan}>
           <FormControl>
             <FormLabel>First Name</FormLabel>
-            <Input placeholder="Roger" />
+            <Input placeholder="John" />
           </FormControl>
         </GridItem>
         <GridItem colSpan={colSpan}>
           <FormControl>
             <FormLabel>Last Name</FormLabel>
-            <Input placeholder="Cabral" />
+            <Input placeholder="Doe" />
           </FormControl>
         </GridItem>
-        <GridItem colSpan={colSpan}>
+        <GridItem colSpan={2}>
           <FormControl>
             <FormLabel>Address</FormLabel>
             <Input placeholder="Blvd. Broken Dreams, 21" />
@@ -44,7 +44,7 @@ const Details = () => {
         <GridItem colSpan={colSpan}>
           <FormControl>
             <FormLabel>City</FormLabel>
-            <Input placeholder="San Fransokyo" />
+            <Input placeholder="San Francisco" />
           </FormControl>
         </GridItem>
         <GridItem colSpan={colSpan}>
@@ -58,11 +58,11 @@ const Details = () => {
             </Select>
           </FormControl>
         </GridItem>
-        <GridItem colSpan={colSpan}>
+        <GridItem colSpan={2}>
             <Checkbox defaultChecked>Ship to billing address.</Checkbox>
         </GridItem>
-        <GridItem colSpan={colSpan}>
-            <Button size="lg" w="full">Place Order</Button>
+        <GridItem colSpan={2}>
+            <Button colorScheme="brand" size="lg" w="full">Place Order</Button>
         </GridItem>
       </SimpleGrid>
     </VStack>
